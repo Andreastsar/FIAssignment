@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: red;
+}
+
+/* Base Styling */
+
+.heading-primary {
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1.2rem;
+  margin: 2rem 0;
+  font-weight: 700;
+}
+
+.loading-spinner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,18 @@
+.user-list-section {
+  background-color: rgb(253, 236, 215);
+  padding: 5rem 0;
+}
+
+.users-list-group-heading {
+  font-size: 2.4rem;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-bottom: 1.6rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.bg-info {
+  padding: 1rem 2rem;
+  margin-top: 2rem;
+}

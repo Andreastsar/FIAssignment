@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "password": "abc1232",
+      "type": "Admin"
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "password": "abc123",
+      "type": "User"
+    },
+    {
+      "id": 4,
+      "name": "Samantha Lee",
+      "email": "samantha.lee@example.com",
+      "password": "letmein",
+      "type": "User"
+    },
+    {
+      "id": 9,
+      "name": "Jackie Chan",
+      "email": "jackie.chan@example.com",
+      "password": "kungfu",
+      "type": "User"
+    },
+    {
+      "id": 10,
+      "name": "Bruce Lee",
+      "email": "bruce.lee@example.com",
+      "password": "beewater",
+      "type": "User"
+    },
+    {
+      "name": "Andreas",
+      "email": "test@test.com",
+      "password": "123456",
+      "type": "User",
+      "id": 11
+    }
+  ]
+}

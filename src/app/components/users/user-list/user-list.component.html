@@ -1,0 +1,29 @@
+<section class="user-list-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- Users List -->
+      <div class="col-md-7">
+        <button class="btn btn-primary" (click)="addNewUser()">ADD NEW USER</button>
+
+        <div class="list-group users-list-group" *ngIf="!isLoading && users.length >= 1 && !errorMessage">
+          <h2 class="list-group users-list-group-heading">List of DB Users</h2>
+          <app-user-item *ngFor="let user of users" [user]="user"></app-user-item>
+        </div>
+
+        <div class="list-group" *ngIf="!isLoading && (users.length < 1 || errorMessage)">
+          <p class="bg-info">No users found. Add a new user! <br> {{errorMessage}}</p>
+        </div>
+
+      </div>
+
+      <!-- Display Create / Edit Forms -->
+      <div class="col-md-5">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+
+  <app-loading-spinner *ngIf="isLoading"></app-loading-spinner>
+
+</section>

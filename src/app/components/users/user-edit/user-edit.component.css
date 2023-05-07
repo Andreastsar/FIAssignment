@@ -1,0 +1,33 @@
+.btn {
+  margin-right: 1rem;
+}
+
+form {
+  padding: 4rem 3rem 3rem 3rem;
+  box-shadow: 0 0 1.5rem 0.5rem rgb(0, 0, 0, 0.3);
+  border-radius: 5rem;
+}
+
+select {
+  margin-top: 7px;
+}
+
+.user-form-title {
+  font-size: 2.4rem;
+  text-decoration: underline;
+  font-weight: 500;
+  margin-bottom: 6.2rem;
+  margin-top: 0;
+  text-align: center;
+}
+
+.bg-danger {
+  margin-top: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.bg-info {
+  display: inline-block;
+  padding: 1rem 2rem;
+  margin-right: 3rem;
+}

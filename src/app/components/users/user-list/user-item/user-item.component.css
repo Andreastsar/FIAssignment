@@ -1,0 +1,30 @@
+.list-group-item {
+  margin: 1rem 0;
+}
+
+.list-group-item-heading {
+  font-size: 2rem;
+}
+
+.list-group-item-text {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+.list-group-item-userInfo {
+  position: relative;
+}
+
+.btn-edit-user {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 1rem;
+}
+
+.btn-delete-user {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 1rem;
+}
